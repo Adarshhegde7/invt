@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John & Jane's Wedding</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .rsvp-form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>John & Jane's Wedding</h1>
+    </header>
+
+    <section>
+        <h2>Save the Date</h2>
+        <p>Join us as we celebrate the union of John and Jane in holy matrimony.</p>
+
+        <h2>Event Details</h2>
+        <p>Date: October 15, 2023</p>
+        <p>Time: 4:00 PM</p>
+        <p>Venue: Beautiful Garden Venue</p>
+
+        <h2>About Us</h2>
+        <p>John and Jane met in 2018 and have been inseparable ever since. They are excited to start this new chapter of their lives together and would be honored to have you there to share in their joy.</p>
+
+        <h2>RSVP</h2>
+        <form class="rsvp-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="attendees">Number of Attendees:</label>
+            <input type="number" id="attendees" name="attendees" required>
+
+            <label for="message">Message (optional):</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit">RSVP</button>
+        </form>
+    </section>
+</body>
+</html>
